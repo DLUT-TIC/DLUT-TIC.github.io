@@ -5693,6 +5693,11 @@ vue-router@^4.3.2:
     "@vue/server-renderer" "3.4.34"
     "@vue/shared" "3.4.34"
 
+vuepress-plugin-sakura@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.npmmirror.com/vuepress-plugin-sakura/-/vuepress-plugin-sakura-1.2.1.tgz"
+  integrity sha512-76q8SsTZngGIZB3+HQvZBUPn8DfgUreei2n6CINmsR0hc7zom5eOWbL0VbxVMnJc7axL1ED3etZuBd68TaBIxg==
+
 vuepress-theme-reco@2.0.0-rc.16:
   version "2.0.0-rc.16"
   resolved "https://registry.npmmirror.com/vuepress-theme-reco/-/vuepress-theme-reco-2.0.0-rc.16.tgz"

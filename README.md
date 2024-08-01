@@ -4,7 +4,7 @@ modules:
   - BannerBrand
   - Features
   - Blog
-  - MdContent
+  - try
   - Footer
 bannerBrand:
   bgImage: '/bg.svg'
@@ -31,17 +31,10 @@ isShowTitleInHome: true
 actionText: About
 actionLink: /views/other/about
 
+try:
+
 footer: 
   record: 域名备案文案
   recordLink: 域名备案地址
   startYear: 2024
 ---
-
-## 随便写一点东西吧
-```
-#include <stdio.h>
-int main() {
-  printf("hello world");
-  return 0;
-}
-```

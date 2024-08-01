@@ -15,5 +15,4 @@ export default defineUserConfig({
   },
   bundler: viteBundler({}),
   theme: recoTheme(themeConfig),
-  // debug: true,
 })
