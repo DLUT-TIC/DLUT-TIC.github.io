@@ -12,7 +12,7 @@ export const themeConfig = {
       bulletin: zhConfig.bulletin,
     },
   },
-  base:'/docs/',
+  base:'/TIC/',
 
   logo: '/logo.png',
 
