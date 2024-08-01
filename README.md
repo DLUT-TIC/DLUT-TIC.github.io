@@ -11,9 +11,9 @@ bannerBrand:
   title: Welcome to TIC
   description: TIC是一个好地方
   tagline: 快来吧，求求你了
-  buttons:
-    - { text: 紫色按钮, link: 'https://www.baidu.com' }
-    - { text: 灰色按钮, link: 'https://www.baidu.com', type: 'plain' }
+  # buttons:
+  #   - { text: 紫色按钮, link: 'https://www.baidu.com' }
+  #   - { text: 灰色按钮, link: 'https://www.baidu.com', type: 'plain' }
 
 features:
 - title: 过去

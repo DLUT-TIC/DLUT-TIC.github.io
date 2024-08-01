@@ -9,8 +9,8 @@ export default defineUserConfig({
     // 作为特例，默认语言可以使用 '/' 作为其路径。
     '/': {
       lang: 'zh-CN',
-      title: 'vuepress-reco',
-      description: '一款简洁的 vuepress 博客 & 文档 主题。',
+      title: 'DUT-TIC',
+      description: 'Welcome to TIC',
     },
   },
   bundler: viteBundler({}),
