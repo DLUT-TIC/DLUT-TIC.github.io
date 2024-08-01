@@ -15,11 +15,11 @@ bannerBrand:
   #   - { text: 灰色按钮, link: 'https://www.baidu.com', type: 'plain' }
 
 features:
-- title: 过去
+- title: 前端
   details: 我不认识你我不认识你我不认识你我不认识你我不认识你我不认识你我不认识你我不认识你我不认识你
-- title: 当下
+- title: 人工智能
   details: 你不认识我你不认识我你不认识我你不认识我你不认识我你不认识我你不认识我你不认识我你不认识我
-- title: 未来
+- title: 后端
   details: 你我互不认识你我互不认识你我互不认识你我互不认识你我互不认识你我互不认识你我互不认识你我互不认识
 
 
@@ -35,4 +35,3 @@ footer:
   recordLink: 域名备案地址
   startYear: 2024
 ---
-hello
