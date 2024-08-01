@@ -35,3 +35,4 @@ footer:
   recordLink: 域名备案地址
   startYear: 2024
 ---
+hello
