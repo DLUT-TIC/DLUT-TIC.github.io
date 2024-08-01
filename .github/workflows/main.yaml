@@ -34,5 +34,5 @@ jobs:
           # 打包后的文件部署到哪个分支上
           BRANCH: main
           # 打包后的文件在哪里
-          FOLDER: docs/.vuepress/dist
+          FOLDER: .vuepress/dist
 
