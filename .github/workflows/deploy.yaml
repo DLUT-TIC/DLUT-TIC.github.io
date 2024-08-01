@@ -1,9 +1,6 @@
 # 工作流的名称，如果省略，则使用当前文件名
 name: Auto Deploy
 
-# 从工作流生成的工作流运行的名称，如果省略，则使用提交时的commit信息
-run-name: Deploy by @${{ github.actor }}
-
 # 触发部署的条件
 on:
   # 每当 push 到 master 分支时触发部署
@@ -34,7 +31,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           # 选择要使用的 node 版本
-          node-version: '16'
+          node-version: '20'
 
       # 如果你的依赖是使用npm的，用这种
       # 缓存 npm node_modules
