@@ -9,7 +9,7 @@ on:
   # 每当 push 到 master 分支时触发部署
   push:
     branches: 
-      - master
+      - main
 
 # 当前流程要执行的任务，可以是多个。[my_first_job]就是一个任务
 jobs:
@@ -51,7 +51,7 @@ jobs:
         # 如果没有命中缓存才执行 npm install
         if: steps.cache-deps.outputs.cache-hit != 'true'
         run: npm install
-        
+
       # 运行构建脚本
       - name: Run Build Script
         run: npm run build
