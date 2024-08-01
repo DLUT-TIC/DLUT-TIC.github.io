@@ -4,7 +4,6 @@ modules:
   - BannerBrand
   - Features
   - Blog
-  - try
   - Footer
 bannerBrand:
   bgImage: '/bg.svg'
@@ -30,8 +29,6 @@ blog:
 isShowTitleInHome: true
 actionText: About
 actionLink: /views/other/about
-
-try:
 
 footer: 
   record: 域名备案文案

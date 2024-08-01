@@ -14,7 +14,6 @@ export const themeConfig = {
       description: 'Welcome to TIC',
     },
   },
-  base:'/TIC/',
 
   logo: '/logo.png',
 
@@ -33,5 +32,6 @@ export const themeConfig = {
     categoryText: '碎碎念', // 默认 categories
     tagText: '标签' // 默认 tags
   },
-
+  
+  base: "/TIC/"
 }
