@@ -14,7 +14,7 @@ export const themeConfig = {
       description: 'Welcome to TIC',
     },
   },
-
+// 左上角的图标
   logo: '/logo.png',
 
   authorAvatar: '/logo.png',
@@ -29,9 +29,9 @@ export const themeConfig = {
   autoSetBlogCategories: true,
   autoAddCategoryToNavbar: {
     location: 5, // 默认 0
-    categoryText: '碎碎念', // 默认 categories
+    categoryText: '务虚笔记', // 默认 categories
     tagText: '标签' // 默认 tags
   },
   
-  base: "/TIC/"
+  base: "/TIC/",
 }

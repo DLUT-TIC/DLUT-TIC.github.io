@@ -1,65 +1,74 @@
 ---
-title: vuepress-theme-reco
-date: 2019/04/09
-categories:
- - reco
+title: 网站编辑方法
+date: 2024/8/2
+author: lyydsheep
+tags:
+ - 使用方法
+password: 0dd093641855dfab83795bfba3f3f84e
 ---
 
-![vuepress](https://img.shields.io/badge/vuepress-0.14.8-brightgreen.svg)
-![leancloud-storage](https://img.shields.io/badge/leancloud--storage-3.10.1-orange.svg)
-![valine](https://img.shields.io/badge/valine-1.3.4-blue.svg)
+# 网站内容编辑方法
 
-::: tip 介绍
-1. 这是一个vuepress主题，旨在添加博客所需的分类、TAB墙、分页、评论等能；<br>
-2. 主题追求极简，根据 vuepress 的默认主题修改而成，官方的主题配置仍然适用；<br>
-3. 你可以打开 [午后南杂](http://recoluan.gitlab.io) 来查看效果。
+> 本网站使用vuepress-theme-reco 2.0搭建<br>编写时，由于[官方文档](https://theme-reco.vuejs.press/docs/guide/introduce.html)尚未完善以及个人能力不足，导致许多个性化功能无法加入到网站中。<br>但我们相信好事正在酝酿，不管是网站、TIC，还是大工、我们自身，都有美好的未来。<br>
+
+## 书写技术路线部分需要注意什么？
+
+在我们的技术路线部分的页面中，大体可以分为四个部分：
+- 顶部导航栏（navbar）
+- 左侧系列栏（series）
+- 文档内容（markdown）
+- 当前文档目录
+![image-20240802141905040](https://raw.githubusercontent.com/lyydsheep/pic/main/202408021419116.png)
+
+在书写技术路线部分时，我们只需要把注意力放在**左侧系列栏**（红色）和**文档内容**（蓝色）部分即可
+
+## 左侧系列栏
+
+编辑左侧系列栏，我们需要修改`/.vuepress/config/zh/series.ts`文件中的配置项
+
+![image-20240802142911702](https://raw.githubusercontent.com/lyydsheep/pic/main/202408021429742.png)
+
+目前的`series.ts`文件正如下图，三个重要的部分被框起来了
+![image-20240802144755079](https://raw.githubusercontent.com/lyydsheep/pic/main/202408021447112.png)
+
+在我的理解中，一个**绿色部分**就是一个系列栏。很显然，我们有三个技术路线，应当有三个系列栏（绿色部分），但是不同的技术页面应该呈现其对应的系列栏，比如前端技术就只能呈现前端技术路线的系列栏，而不能出现人工智能技术的系列栏。<br>
+解决这个问题就需要依赖红色部分<br>
+红色部分是一个**路由前缀**，用于限定这个系列栏（绿色部分）出现在哪些页面。<br>而蓝色部分则是一系列的markdown文档名称，也是系列栏中的内容，可能听起来有点抽象，对照着看看下面的文件分布，你就能一清二楚了（**注意看路径和文件的名称**）
+![image-20240802150232739](https://raw.githubusercontent.com/lyydsheep/pic/main/202408021502773.png)
+
+右侧是网页呈现的效果，六个md文件，对应六个条目
+
+::: warning
+注意右侧呈现的名字和md文件名字不同，这是我在md文件中编辑LE title元素所造成的，稍后会提到
 :::
 
-## Use
+举个例子，假设需要在人工智能技术路线中展示：overview、学习Ai、成为Ai、超越Ai这三个步骤，那么需要先这样编写`series.ts`文件
+![image-20240802154026213](https://raw.githubusercontent.com/lyydsheep/pic/main/202408021540240.png)
 
-**Build**
+然后在`docs/ai`目录下，分别编写四个md文件<br>
+![image-20240802154101703](https://raw.githubusercontent.com/lyydsheep/pic/main/202408021541739.png)
 
-```bash
-npm run build
+最终展示效果就是这样的😂（由于除了overview文件外都没设置title元素，因此展示的就是路径名了）
+![image-20240802154326099](https://raw.githubusercontent.com/lyydsheep/pic/main/202408021543154.png)
 
-# or
+## 编辑文档内容
 
-yarn build
-```
+编写文档时，有两个重要部分值得我们注意，以`docs/ai/overview.md`为例<br>
+红色部分是对文档的一些配置信息，绿色部分则是正文内容，写法与正常的markdown一致<br>
+需要注意的是红色部分中的配置项
 
-**Server**
+![image-20240802155423716](https://raw.githubusercontent.com/lyydsheep/pic/main/202408021554756.png)
 
-```bash
-npm run dev
+目前为止，我利用的所有配置项就仅限于
+- title：定制文档的标题
+- date：文档写作实践
+- categories：分类
+- author：作者
+- tags：标签
 
-# or
-
-yarn dev
-```
-
-## Play Together
-
-### 0.x
-
-`vuepress-theme-reco@0.x` 是基于 `vuepress@0.x` 的博客主题。
-
-`vuepress@0.x` 功能比较简单，只适合书写简单的文档，但好在支持主题自定义，而个人又希望能够用它来书写博客，原因就是它足够的简洁，毫无疑问，这也符合很多程序员的观念，也就是在这种情况下，`vuepress-theme-reco@0.x` 的第一个版本经过一个通宵而产生。
-
-主题开源不久，很多朋友通过各种联系方式，给到很多好的意见和建议，所以我个人也在积极地更新。
-
-因为我是一名前端开发工程师，开发的过程中，总是想着能不能加入一些炫酷的效果，有很多次都是添加上又去掉，反反复复，最后都是被 **简洁** 的这个原则阻止掉，毕竟，现在我是将它当作一个产品来看待，并不是一个技术或者是技巧的尝试项目。
-
-### 1.x
-
-随着不断有用户过来询问：为什么 `vuepress-theme-reco@0.x` 不能在 `vuepress@1.x` 上使用？本来只是打算对 `vuepress-theme-reco@0.x` 进行简单的bug修复的我，终究还是忍不住，开始了 `vuepress-theme-reco@1.x` 的开发。又是在一个寂静的凌晨两点半（晚上就是出活快），我默默地开始了。
-
-主题升级的关键也就是 `@vuepress/plugin-blog` 这款官方插件，它不需要再去麻烦地过滤数据，将分类和标签的相关信息直接存在 `$categories` 和 `$tags` 这两个全局变量中。借助于 `@vuepress/plugin-blog`，分类和标签功能更容易实现，但也有了一些局限。接下来两三天的时间，都是在进行功能的迁移和一些bug的修复。
-
-`vuepress-theme-reco@0.x` 的开发中，更加深刻地明白了模块化和组件化编程的重要性，如果当初没有把一些功能进行封装，而是直接简单的复制，这次升级也不会这么顺利。模块拆分的越细，使用就会越灵活。
-
-### CLI
-
-还是衷心地希望能有更多的朋友参与进来，更快地去完善它。接下来时间允许的情况下，我会开源一款自动生成博客的脚手架，略过配置步骤，直接书写优质内容，这也是我后来逐渐形成的一种信念，就是希望能让这款主题，功能越完善，使用越来越简单。
-
-## License
-[MIT](https://github.com/recoluan/vuepress-theme-reco/blob/master/LICENSE)
+::: warning
+正如你所见，title元素的值就是影响系列栏展示的文本，如果没有，则会是一串地址<br><br>
+author如果不写，则是**TIC-TEAM**（即author的默认值是TIC-TEAM）<br><br>
+categories和tags元素，用于自动生成“务虚笔记”和“标签”的内容。主要用于`/blogs`目录下的文档，在技术路线中可以不写<br>
+即技术路线部分文档应该有至少有**title、date**两个元素
+:::

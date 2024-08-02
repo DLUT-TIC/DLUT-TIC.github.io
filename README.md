@@ -4,6 +4,7 @@ modules:
   - BannerBrand
   - Features
   - Blog
+  - MdContent
   - Footer
 bannerBrand:
   bgImage: '/bg.svg'
@@ -35,3 +36,23 @@ footer:
   recordLink: 域名备案地址
   startYear: 2024
 ---
+
+## Quick Start
+
+### Clone
+```
+git clone git@github.com:lyydsheep/lyydsheep.github.io.git
+```
+
+### Cd
+**do it by yourself**
+
+### Install dependencies
+```
+npm install
+```
+
+### Run
+```
+npm run dev
+```

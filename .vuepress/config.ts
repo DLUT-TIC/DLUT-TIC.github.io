@@ -9,6 +9,7 @@ export default defineUserConfig({
     // 作为特例，默认语言可以使用 '/' 作为其路径。
     '/': {
       lang: 'zh-CN',
+      //首页左上角的文字
       title: 'DUT-TIC',
       description: 'Welcome to TIC',
     },
