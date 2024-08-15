@@ -41,7 +41,7 @@ footer:
 
 ### Clone
 ```
-git clone git@github.com:lyydsheep/lyydsheep.github.io.git
+git clone https://github.com/DLUT-TIC/DLUT-TIC.github.io.git
 ```
 
 ### Cd
