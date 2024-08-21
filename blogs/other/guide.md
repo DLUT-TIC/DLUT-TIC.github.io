@@ -9,7 +9,7 @@ password: 0dd093641855dfab83795bfba3f3f84e
 
 # 网站内容编辑方法
 
-> 本网站使用vuepress-theme-reco 2.0搭建<br>编写时，由于[官方文档](https://theme-reco.vuejs.press/docs/guide/introduce.html)尚未完善以及个人能力不足，导致许多个性化功能无法加入到网站中。<br>但我们相信好事正在酝酿，不管是网站、TIC，还是大工、我们自身，都有美好的未来。<br>
+> 本网站使用vuepress-theme-reco 2.0搭建<br>编写时，由于[官方文档](https://theme-reco.vuejs.press/docs/guide/introduce.html)尚未完善以及个人能力不足，导致许多个性化功能无法加入到网站中。<br>
 
 ## 书写技术路线部分需要注意什么？
 
