@@ -6,7 +6,7 @@ export const navbar = [
 
   {text: '前端', link: '/docs/frontEnd/overview', icon: 'AnnotationVisibility'},
 
-  {text: '人工智能', link: '/docs/ai/overview', icon: 'Star'},
+  {text: '人工智能', link: '/docs/ai/学习建议', icon: 'Star'},
   //docs目录下存放路线有关的文章，编写格式不做要求
   //碎碎念的文章放在blogs目录下，并且文章正文前的部分（用---包裹起来的部分）严格遵守编写格式
   {text: '后端', link: '/docs/backEnd/overview', icon: 'CloudSatelliteServices'},
