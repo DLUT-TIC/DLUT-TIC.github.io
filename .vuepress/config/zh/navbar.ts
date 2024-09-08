@@ -27,7 +27,7 @@ export const navbar = [
       { text: 'Simon blog', link: 'http://www.baidu.com', icon: 'PageFirst'},
       { text: 'Nanami blog', link: 'http://www.baidu.com', icon: 'BrushFreehand'},
       { text: 'lyydsheep blog', link: 'http://www.baidu.com', icon: 'PageFirst'},
-      { text: 'saber blog', link: 'http://www.baidu.com', icon: 'Cafe'},
+      { text: 'saber blog', link: 'https://emisaber.github.io/White_Box/', icon: 'Cafe'},
     ]
   }
 ]
