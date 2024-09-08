@@ -3,6 +3,6 @@ export const series = {
     'overview', 'golangSyntax', 'gin', 'gorm', 'docker-k8s', 'practice'
   ],
   '/docs/ai/':[
-    'overview', 'learn-Ai', 'become-Ai', 'surpass-Ai'
+    '人工智能学习建议', 
   ]
 }
