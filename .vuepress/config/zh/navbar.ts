@@ -23,9 +23,11 @@ export const navbar = [
   {
     text: '友情链接',
     children: [
-      { text: '创新实践中心1', link: 'http://www.baidu.com', icon: 'PageFirst'},
-      { text: '创新实践中心2', link: 'http://www.baidu.com', icon: 'PageFirst'},
-      { text: '创新实践中心3', link: 'http://www.baidu.com', icon: 'PageFirst'},
+      { text: '创新实践中心1', link: 'http://www.baidu.com', icon: 'Bar'},
+      { text: 'Simon blog', link: 'http://www.baidu.com', icon: 'PageFirst'},
+      { text: 'Nanami blog', link: 'http://www.baidu.com', icon: 'BrushFreehand'},
+      { text: 'lyydsheep blog', link: 'http://www.baidu.com', icon: 'PageFirst'},
+      { text: 'saber blog', link: 'http://www.baidu.com', icon: 'Cafe'},
     ]
   }
 ]
