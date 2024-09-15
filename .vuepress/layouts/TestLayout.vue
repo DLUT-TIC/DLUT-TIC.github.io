@@ -1,4 +1,4 @@
-<!-- <template>
+<template>
   <GenericContainer>
     <section class="page-404-wrapper">
       <div class="content">
@@ -18,4 +18,4 @@ import { useThemeLocaleData } from '@composables/index.js';
 const routeLocale = useRouteLocale()
 const themeLocal = useThemeLocaleData()
 </script>
- -->
+
