@@ -15,9 +15,9 @@ export const themeConfig = {
     },
   },
 // 左上角的图标
-  logo: '/logo.png',
+  logo: '/logo.jpg',
 
-  authorAvatar: '/logo.png',
+  authorAvatar: '/logo.jpg',
   author: 'TIC-TEAM',
 
   head: [
