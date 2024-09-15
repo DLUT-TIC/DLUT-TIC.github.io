@@ -16,16 +16,16 @@
   
   <script lang="ts">
   import { defineComponent } from 'vue';
-  
+
   export default defineComponent({
     name: 'MemberShowcase',
     data() {
       return {
         members: [
-          { id: 1, avatar: 'avatar1.png', nickname: 'User1', link: 'https://example.com/user1' },
-          { id: 2, avatar: 'avatar2.png', nickname: 'User2', link: 'https://example.com/user2' },
-          { id: 3, avatar: 'avatar3.png', nickname: 'User3', link: 'https://example.com/user3' },
-          { id: 4, avatar: 'avatar4.png', nickname: 'User4', link: 'https://example.com/user4' },
+          { id: 1, avatar: 'avatars/Wzy.jpg', nickname: 'User1', link: 'https://example.com/user1' },
+          { id: 2, avatar: 'avatars/Lyd.png', nickname: 'User2', link: 'https://lyydsheep.github.io/' },
+          { id: 3, avatar: 'avatars/Cwc.png', nickname: 'User3', link: 'https://emisaber.github.io/White_Box/' },
+          { id: 4, avatar: 'avatars/Qym.png', nickname: 'User4', link: 'https://example.com/user4' },
           { id: 5, avatar: 'avatar5.png', nickname: 'User5', link: 'https://example.com/user5' },
           { id: 6, avatar: 'avatar6.png', nickname: 'User6', link: 'https://example.com/user6' },
           { id: 7, avatar: 'avatar7.png', nickname: 'User7', link: 'https://example.com/user7' },

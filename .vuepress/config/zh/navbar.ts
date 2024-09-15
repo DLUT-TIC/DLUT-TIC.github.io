@@ -15,6 +15,7 @@ export const navbar = [
     text: '计算机基础',
     icon: 'Document',
     children: [
+        { text: '计算机通识课', link: '/blogs/通识课/general' },
         { text: '计算机网络', link: 'www.baidu.com' },
         { text: '操作系统', link: 'www.baidu.com' },
         { text: '数据结构与算法', link: 'www.baidu.com' },
