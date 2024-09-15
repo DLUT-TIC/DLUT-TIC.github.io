@@ -22,4 +22,12 @@ export default defineUserConfig({
     md.use(katex);
     md.linkify.set({ fuzzyEmail: false });
   },
+  // markdown: {
+  //   lineNumbers: true,
+  //   anchor: { permalink: false },
+  //   toc: {includeLevel: [1,2]},
+  //   extendMarkdown: md => {
+  //     md.use(require('markdown-it-texmath'))
+  //   }
+  // }
 })
