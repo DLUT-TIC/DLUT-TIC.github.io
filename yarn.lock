@@ -3734,7 +3734,7 @@ jsonfile@^6.0.1:
   optionalDependencies:
     graceful-fs "^4.1.6"
 
-katex@0.16.11:
+katex@^0.16.11, katex@0.16.11:
   version "0.16.11"
   resolved "https://registry.npmmirror.com/katex/-/katex-0.16.11.tgz"
   integrity sha512-RQrI8rlHY92OLf3rho/Ts8i/XvjgguEjOkO1BEXcU3N8BqPpSzBNwV/G0Ukr+P/l3ivvJUE/Fa/CwbS6HesGNQ==
