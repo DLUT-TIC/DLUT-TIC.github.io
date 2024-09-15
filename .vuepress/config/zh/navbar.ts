@@ -4,7 +4,7 @@ export const navbar = [
   //图标只能使用https://www.xicons.org/#/zh-CN中的carbon类型
   {text: '首页', link: '/', icon: 'PageFirst'},
 
-  {text: '前端', link: '/docs/frontEnd/overview', icon: 'AnnotationVisibility'},
+  {text: '前端', link: '/docs/frontEnd/大前端技术栈', icon: 'AnnotationVisibility'},
 
   {text: '人工智能', link: '/docs/ai/学习建议', icon: 'Star'},
   //docs目录下存放路线有关的文章，编写格式不做要求
