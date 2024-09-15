@@ -1,5 +1,5 @@
 ---
-title: 前端
+title: JS笔记
 date: 2024/9/15
 categories:
  - fe
