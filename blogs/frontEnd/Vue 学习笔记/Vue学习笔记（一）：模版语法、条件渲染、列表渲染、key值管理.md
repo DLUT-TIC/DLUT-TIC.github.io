@@ -1,17 +1,15 @@
 ---
-title: Vue笔记
+title: Vue笔记（一）：模版语法、条件渲染、列表渲染、key值管理
 date: 2024/9/16
 categories:
  - fe
 author: aoxuexinghuo
 tags:
  - Vue
- - 手写笔记
+ - 手写
  - 前端框架
 ---
-## Vue学习笔记（一）：模版语法、条件渲染、列表渲染、key 值管理
-
-[TOC]
+## Vue学习笔记（一）：模版语法、条件渲染、列表渲染、key值管理
 
 ### 一、模版语法
 

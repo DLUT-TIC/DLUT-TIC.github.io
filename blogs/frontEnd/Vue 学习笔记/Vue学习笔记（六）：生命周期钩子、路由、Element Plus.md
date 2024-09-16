@@ -1,17 +1,15 @@
 ---
-title: Vue笔记
+title: Vue笔记（六）：生命周期钩子、路由、Element Plus
 date: 2024/9/16
 categories:
  - fe
 author: aoxuexinghuo
 tags:
  - Vue
- - 手写笔记
+ - 手写
  - 前端框架
 ---
 ## Vue学习笔记（六）：生命周期钩子、路由、Element Plus
-
-[TOC]
 
 ### 一、生命周期钩子
 

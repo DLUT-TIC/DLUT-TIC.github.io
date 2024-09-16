@@ -1,17 +1,15 @@
 ---
-title: Vue笔记
+title: Vue笔记（二）：事件处理、事件传参、修饰符、数组变化侦测
 date: 2024/9/16
 categories:
  - fe
 author: aoxuexinghuo
 tags:
  - Vue
- - 手写笔记
+ - 手写
  - 前端框架
 ---
 ## Vue学习笔记（二）：事件处理、事件传参、修饰符、数组变化侦测
-
-[TOC]
 
 ### 一、事件处理
 

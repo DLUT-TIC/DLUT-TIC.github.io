@@ -1,12 +1,12 @@
 ---
-title: Vue笔记
+title: Vue笔记（环境配置）
 date: 2024/9/16
 categories:
  - fe
 author: aoxuexinghuo
 tags:
  - Vue
- - 手写笔记
+ - 手写
  - 前端框架
 ---
 ## Vue环境配置（Windows）
