@@ -9,8 +9,6 @@ tags:
  - 手写笔记
  - 前端框架
 ---
-## Vue环境配置（Windows）
-
 ### 一、node.js安装配置
 
  vue的使用需要以node.js为前提，如果您的电脑上已经安装了node.js，可直接跳过这一步。
