@@ -27,14 +27,14 @@
           { id: 3, avatar: 'avatars/Saber.jpg', nickname: 'saber', link: 'https://emisaber.github.io/White_Box/' },
           { id: 4, avatar: 'avatars/Qym.png', nickname: 'Q', link: 'https://github.com/madaoQ' },
           { id: 5, avatar: 'avatars/Wyh.png', nickname: '无敌外援', link: 'https://github.com/Nanami14138' },
-          { id: 6, avatar: 'avatar6.png', nickname: 'User6', link: 'https://example.com/user6' },
+          { id: 6, avatar: 'avatars/Wkk.png', nickname: 'Sazerac-kk', link: 'http://www.sazerac.asia/' },
           { id: 7, avatar: 'avatar7.png', nickname: 'User7', link: 'https://example.com/user7' },
           { id: 8, avatar: 'avatar8.png', nickname: 'User8', link: 'https://example.com/user8' },
           // 可以根据需要添加更多成员
         ],
         currentIndex: 0,
         memberBoxWidth: 166, // member-box的宽度加上间距 (150px宽度 + 16px间距)
-        membersToShow: 5,
+        membersToShow: 6,
       };
     },
     computed: {
