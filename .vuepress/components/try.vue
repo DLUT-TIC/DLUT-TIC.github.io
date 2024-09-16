@@ -71,7 +71,7 @@
   
   .viewport {
     overflow: hidden;
-    width: 664px; /* 显示4个成员，每个成员150px宽，加上16px的margin */
+    width: 830px; /* 显示4个成员，每个成员150px宽，加上16px的margin */
     position: relative;
   }
   
