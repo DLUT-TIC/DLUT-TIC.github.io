@@ -3,7 +3,8 @@ home: true
 modules:
   - BannerBrand
   - Features
-  - Blog
+  - Blog、
+  - MdContent
   - Footer
 bannerBrand:
   bgImage: '/bg.svg'
@@ -35,25 +36,5 @@ footer:
   recordLink: 域名备案地址
   startYear: 2024
 ---
-
-## Quick Start
-
-### Clone
-```
-git clone https://github.com/DLUT-TIC/DLUT-TIC.github.io.git
-```
-
-### Cd
-**do it by yourself**
-
-### Install dependencies
-```
-npm install
-```
-
-### Run
-```
-npm run dev
-```
 
 <try />
