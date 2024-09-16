@@ -1,14 +1,16 @@
 ---
-title: Vue笔记（二）
+title: Vue笔记（二）：事件处理、事件传参、修饰符、数组变化侦测
 date: 2024/9/16
 categories:
  - fe
 author: aoxuexinghuo
 tags:
  - Vue
- - 手写笔记
+ - 手写
  - 前端框架
 ---
+## Vue学习笔记（二）：事件处理、事件传参、修饰符、数组变化侦测
+
 ### 一、事件处理
 
 在 Vue 中我们可以使用 `v-on` 指令来监听 DOM 事件，并在事件触发时执行对应的 JavaScript。此外，`v-on` 指令可以缩写为 @ 符号。

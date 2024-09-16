@@ -1,14 +1,16 @@
 ---
-title: Vue笔记
+title: Vue笔记（环境配置）
 date: 2024/9/16
 categories:
  - fe
 author: aoxuexinghuo
 tags:
  - Vue
- - 手写笔记
+ - 手写
  - 前端框架
 ---
+## Vue环境配置（Windows）
+
 ### 一、node.js安装配置
 
  vue的使用需要以node.js为前提，如果您的电脑上已经安装了node.js，可直接跳过这一步。

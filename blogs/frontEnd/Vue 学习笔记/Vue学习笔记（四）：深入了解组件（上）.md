@@ -1,14 +1,16 @@
 ---
-title: Vue笔记（四）
+title: Vue笔记（四）：深入了解组件（上）
 date: 2024/9/16
 categories:
  - fe
 author: aoxuexinghuo
 tags:
  - Vue
- - 手写笔记
+ - 手写
  - 前端框架
 ---
+## Vue学习笔记（四）：深入了解组件（上）
+
 ### 一、组件基础
 
 #### 1.引子
