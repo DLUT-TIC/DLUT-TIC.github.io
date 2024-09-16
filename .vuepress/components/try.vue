@@ -24,7 +24,7 @@
         members: [
           { id: 1, avatar: 'avatars/Wzy.jpg', nickname: '😊组长', link: 'https://github.com/SimonWuZY' },
           { id: 2, avatar: 'avatars/Lyd.png', nickname: 'lyydsheep', link: 'https://lyydsheep.github.io/' },
-          { id: 3, avatar: 'avatars/saber.png', nickname: 'saber', link: 'https://emisaber.github.io/White_Box/' },
+          { id: 3, avatar: 'avatars/Saber.png', nickname: 'saber', link: 'https://emisaber.github.io/White_Box/' },
           { id: 4, avatar: 'avatars/Qym.png', nickname: 'Q', link: 'https://github.com/madaoQ' },
           { id: 5, avatar: 'avatars/Wyh.png', nickname: '无敌外援', link: 'https://github.com/Nanami14138' },
           { id: 6, avatar: 'avatar6.png', nickname: 'User6', link: 'https://example.com/user6' },
