@@ -22,7 +22,7 @@ export const themeConfig = {
 
   head: [
     // 配置网站的图标（显示在浏览器的 tab 上）
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'icon', href: '/qq.ico' }],
       // 扩展markdown ---> 显示latex公式
     ['link', {rel:'stylesheet', href:'https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css'}],
     ['link', {rel:'stylesheet', href:'https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js'}],
