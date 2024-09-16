@@ -76,7 +76,7 @@ Vue 使用一种基于 HTML 的模板语法，使我们能够声明式地将其�
 </script>
 ```
 
-![img](https://i-blog.csdnimg.cn/blog_migrate/688e7b6e19362ec0a89b1e8283fee227.png)
+![135aw](https://raw.githubusercontent.com/Emisaber/pic_obsidian/main/135aw.png)
 
 我们可以看到，前者只是做了单纯的文本替换，后者则是将我们想要的链接成功渲染出来（渲染方式为在p标签里嵌套一个a标签）。
 
@@ -102,7 +102,7 @@ Vue 使用一种基于 HTML 的模板语法，使我们能够声明式地将其�
 </script>
 ```
 
-![img](https://i-blog.csdnimg.cn/blog_migrate/058ad1e487ae154b573a3545313fefa0.png)
+![yncut](https://raw.githubusercontent.com/Emisaber/pic_obsidian/main/yncut.png)
 
  我们可以看到，在 HTML 中，`class`和`id`都被成功赋值，`title`由于被赋予的值为`null`而被移除。
 
@@ -183,7 +183,7 @@ Vue 使用一种基于 HTML 的模板语法，使我们能够声明式地将其�
 </script>
 ```
 
-![img](https://i-blog.csdnimg.cn/blog_migrate/365223ab25db3d457e0bd3e7438665f7.png)
+![pzan8](https://raw.githubusercontent.com/Emisaber/pic_obsidian/main/pzan8.png)
 
 有些同学可能会发现，`v-if`与`v-show`的功能似乎是一样的，那么我们又为什么要引入`v-show`指令呢？或者说两者有什么区别呢？
 
@@ -225,7 +225,7 @@ Vue 使用一种基于 HTML 的模板语法，使我们能够声明式地将其�
 </script>
 ```
 
-![img](https://i-blog.csdnimg.cn/blog_migrate/db52c75254542a9c62c41bd5491bdeed.png)
+![ft6jo](https://raw.githubusercontent.com/Emisaber/pic_obsidian/main/ft6jo.png)
 
 `v-for`也支持使用可选的参数`index`，`key`，`value`等（`value`可以替换为`item`）。
 
