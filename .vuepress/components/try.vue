@@ -22,7 +22,7 @@
     data() {
       return {
         members: [
-          { id: 1, avatar: 'avatars/Wzy.jpg', nickname: 'User1', link: 'https://example.com/user1' },
+          { id: 1, avatar: 'avatars/Wzy.jpg', nickname: '😊组长', link: 'https://github.com/SimonWuZY' },
           { id: 2, avatar: 'avatars/Lyd.png', nickname: 'User2', link: 'https://lyydsheep.github.io/' },
           { id: 3, avatar: 'avatars/Cwc.png', nickname: 'User3', link: 'https://emisaber.github.io/White_Box/' },
           { id: 4, avatar: 'avatars/Qym.png', nickname: 'User4', link: 'https://example.com/user4' },
