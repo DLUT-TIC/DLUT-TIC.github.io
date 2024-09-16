@@ -1,17 +1,15 @@
 ---
-title: Vue笔记
+title: Vue笔记（四）：深入了解组件（上）
 date: 2024/9/16
 categories:
  - fe
 author: aoxuexinghuo
 tags:
  - Vue
- - 手写笔记
+ - 手写
  - 前端框架
 ---
 ## Vue学习笔记（四）：深入了解组件（上）
-
-[TOC]
 
 ### 一、组件基础
 
@@ -83,7 +81,7 @@ tags:
 
 在实际应用中，组件常常被我们组织成层层嵌套的树状结构：
 
-![img](https://i-blog.csdnimg.cn/blog_migrate/f834aed42551ad7c2ca062e7d43dfe0b.png)
+![amcsz](https://raw.githubusercontent.com/Emisaber/pic_obsidian/main/amcsz.png)
 
 上方这张图来自于官方文档，就让我们以这张图所提供的嵌套方式为例，进行页面创建：
 
@@ -220,7 +218,7 @@ tags:
 
 这里我们单独建立了一个 pages 网页用于存储各个组件，读者可根据实际情况自行调整文件路径。最后我们就能得到如下的网页了，怎么样，是不是和官方文档的图片很像呢？记得要仔细观察各个组件之间的嵌套逻辑以及嵌套实现方式哦！
 
-![img](https://i-blog.csdnimg.cn/blog_migrate/e9c21049f7f53ce7f710bfaef6ace455.png)
+![68tuu](https://raw.githubusercontent.com/Emisaber/pic_obsidian/main/68tuu.png)
 
 ### 三、组件注册方式
 
@@ -405,7 +403,7 @@ Vue 组件可以更加细致地声明对传入的`props`的校验要求：
 
  上面这段代码的含义就是要求接受到的`test`的数据类型为`Number`（注意此处的 N 要大写，否则会显示`number`未定义），如果不是`Number`类型，控制台就会出现警告。 
 
-![img](https://i-blog.csdnimg.cn/blog_migrate/b15105112fc24871fe0c6ddadf6d4254.png)
+![4oqku](https://raw.githubusercontent.com/Emisaber/pic_obsidian/main/4oqku.png)
 
  同样的`Prop`还能校验`String`，`Array`，`Object`等数据类型，此外还能兼容多个数据类型，例如：
 
@@ -462,4 +460,4 @@ default() {
     }
 ```
 
-![img](https://i-blog.csdnimg.cn/blog_migrate/cc9c3b3227cc1ed676e373d7666db17e.png)
+![xyz5o](https://raw.githubusercontent.com/Emisaber/pic_obsidian/main/xyz5o.png)
