@@ -3,7 +3,7 @@ home: true
 modules:
   - BannerBrand
   - Features
-  - Blog、
+  - Blog
   - MdContent
   - Footer
 bannerBrand:
@@ -36,5 +36,6 @@ footer:
   recordLink: 域名备案地址
   startYear: 2024
 ---
+
 
 <try />
