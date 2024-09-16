@@ -1,0 +1,1 @@
+import{_ as t,o as e,c as a}from"./app-DhiS55xg.js";const o={};function n(r,c){return e(),a("div")}const l=t(o,[["render",n],["__file","1.html.vue"]]),_=JSON.parse('{"path":"/tags/shiyongfangfa/1.html","title":"","lang":"zh-CN","frontmatter":{"layout":"Categories"},"headers":[],"git":{},"filePathRelative":null}');export{l as comp,_ as data};
