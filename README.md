@@ -4,7 +4,6 @@ modules:
   - BannerBrand
   - Features
   - Blog
-  - MdContent
   - Footer
 bannerBrand:
   bgImage: '/bg.svg'
