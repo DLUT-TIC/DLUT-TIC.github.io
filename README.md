@@ -3,7 +3,7 @@ home: true
 modules:
   - BannerBrand
   - Features
-  - Blog
+  - Blog、
   - MdContent
   - Footer
 bannerBrand:
