@@ -37,24 +37,5 @@ footer:
   startYear: 2024
 ---
 
-## Quick Start
-
-### Clone
-```
-git clone https://github.com/DLUT-TIC/DLUT-TIC.github.io.git
-```
-
-### Cd
-**do it by yourself**
-
-### Install dependencies
-```
-npm install
-```
-
-### Run
-```
-npm run dev
-```
 
 <try />
