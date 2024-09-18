@@ -1,5 +1,5 @@
 ---
-title: HTML5+CSS3入门
+title: HTML5_CSS3入门
 date: 2024/9/16
 categories:
  - fe
@@ -11,7 +11,7 @@ tags:
 ---
 # HTML5+CSS3
 
-# 1. 基础知识
+# <font color=red>1. 基础知识</font>
 
 ## 1.1 网页的相关概念
 
@@ -79,7 +79,7 @@ tags:
 
 - 安装完后，当代码写完时，右键点击鼠标，再点击”Open with Live Sever“即可在浏览器中看到运行结果。
 
-# 2. HTML5
+# 2. <font color=red>HTML5</font>
 
 ## 2.1 HTML基本结构标签
 
