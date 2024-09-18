@@ -6,6 +6,8 @@ categories:
 author: Limpid-8818
 tags:
  - 后端
+ - Python
+ - Flask
 ---
 ## 使用 Python 的 Flask 框架进行后端开发
 
