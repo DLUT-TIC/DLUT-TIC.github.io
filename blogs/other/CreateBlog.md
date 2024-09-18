@@ -187,6 +187,6 @@ tags:
 
 ## 参考资料
 
-- “【Hugo】Hugo + Github 免费部署自己的博客.” *莱特雷-letere*, 30 Aug. 2024 [【Hugo】Hugo + Github 免费部署自己的博客 (letere-gzj.github.io)](https://letere-gzj.github.io/hugo-stack/p/hugohugo--github-免费部署自己的博客/#32-github-action自动部署)
+- [【Hugo】Hugo + Github 免费部署自己的博客 (letere-gzj.github.io)](https://letere-gzj.github.io/hugo-stack/p/hugohugo--github-免费部署自己的博客/#32-github-action自动部署)
 
 - [原文视频](https://www.bilibili.com/video/BV1bovfeaEtQ/?spm_id_from=333.1350.jump_directly)
