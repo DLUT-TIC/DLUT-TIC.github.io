@@ -7,8 +7,5 @@ export const series = {
   ],
   '/docs/frontEnd/': [
     '大前端技术栈', 'js', 'Dart语言入门'
-  ],
-  'blogs/frontEnd/HTML5+CSS3笔记/HTML5+CSS3入门': [
-    'HTML5+CSS3入门'
   ]
 }
