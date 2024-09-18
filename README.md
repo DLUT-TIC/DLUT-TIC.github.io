@@ -26,7 +26,7 @@ features:
 
 blog:
   socialLinks:
-    - { icon: 'LogoGithub', link: 'https://www.baidu.com' }
+    - { icon: 'LogoGithub', link: 'https://github.com/DLUT-TIC/DLUT-TIC.github.io'}
 isShowTitleInHome: true
 actionText: About
 actionLink: /views/other/about
