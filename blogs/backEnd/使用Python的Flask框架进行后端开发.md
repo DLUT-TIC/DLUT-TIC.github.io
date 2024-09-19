@@ -201,7 +201,7 @@ if __name__ == '__main__':
   **从 flask 库中导入** `request` ，这样就可以解析前端发送的请求了。然后再添加一个 url 路径和对应的视图函数。  
 
   ```python
-@app.route('/test_get', methods=['GET'])
+  @app.route('/test_get', methods=['GET'])
   def test_get():
       user_name = request.args.get("user_name")
       return "Hello," + user_name
