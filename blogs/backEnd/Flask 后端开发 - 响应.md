@@ -100,8 +100,8 @@ HTTP 响应信息包含以下内容：
 
 - 如果返回的是一个合法的 Response 对象，则直接返回。
 - 如果返回的是一个字符串，那么 Flask 会重新创建一个 werkzeug.wrappers.Response 对象，Response 将该字符串作为主体，状态码为200，类型为 text/html，然后返回该 Response 对象。返回的是 JSON 的话同理，类型为 application/json。
-- 如果返回的是一个元组，元祖中的数据类型是(response,status,headers)。status 值会覆盖默认的200状态码，headers 可以是一个列表或者字典，作为额外的响应头。
-- 如果以上条件都不满足，Flask会假设返回值是一个合法的WSGIt应用程序，并通过Response.force_type(rv,request.environ)转换为一个请求对象。
+- 如果返回的是一个元组，元祖中的数据类型是 (response,status,headers)。status 值会覆盖默认的200状态码，headers 可以是一个列表或者字典，作为额外的响应头。
+- 如果以上条件都不满足，Flask会假设返回值是一个合法的 WSGI 应用程序，并通过 Response.force_type(rv,request.environ) 转换为一个请求对象。
 
 显然，我们可以通过手动创建 Response 对象的方式来改变状态行和响应头中的内容。  
 
