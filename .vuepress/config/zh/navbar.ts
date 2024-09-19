@@ -26,7 +26,7 @@ export const navbar = [
     children: [
       { text: '创新实践中心1', link: 'http://www.baidu.com', icon: 'Bar'},
       { text: 'Simon blog', link: 'https://github.com/SimonWuZY', icon: 'PageFirst'},
-      { text: 'Nanami blog', link: 'http://www.baidu.com', icon: 'BrushFreehand'},
+      { text: 'Nanami blog', link: 'https://github.com/Nanami14138', icon: 'BrushFreehand'},
       { text: 'lyydsheep blog', link: 'https://lyydsheep.github.io/', icon: 'PageFirst'},
       { text: 'saber blog', link: 'https://emisaber.github.io/White_Box/', icon: 'Cafe'},
     ]
