@@ -19,7 +19,7 @@ features:
 - title: 前端
   details: 我不认识你我不认识你我不认识你我不认识你我不认识你我不认识你我不认识你我不认识你我不认识你
 - title: 人工智能
-  details: 你不认识我你不认识我你不认识我你不认识我你不认识我你不认识我你不认识我你不认识我你不认识我
+  details: Artificial intelligence (AI), in its broadest sense, is intelligence exhibited by machines, particularly computer systems. ---- Wikipedia
 - title: 后端
   details: 你我互不认识你我互不认识你我互不认识你我互不认识你我互不认识你我互不认识你我互不认识你我互不认识
 
