@@ -19,9 +19,9 @@ features:
 - title: 前端
   details: 我不认识你我不认识你我不认识你我不认识你我不认识你我不认识你我不认识你我不认识你我不认识你
 - title: 人工智能
-  details: 你不认识我你不认识我你不认识我你不认识我你不认识我你不认识我你不认识我你不认识我你不认识我
+  details: Artificial intelligence (AI), in its broadest sense, is intelligence exhibited by machines, particularly computer systems. ---- Wikipedia
 - title: 后端
-  details: 你我互不认识你我互不认识你我互不认识你我互不认识你我互不认识你我互不认识你我互不认识你我互不认识
+  details: 后端开发涉及负责存储和安全操作用户数据的技术。它是与所有隐藏逻辑相关的部分，为用户互动的应用程序提供支持，确保一切都在最佳状态下工作。
 
 
 blog:
