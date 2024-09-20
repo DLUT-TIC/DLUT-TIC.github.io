@@ -29,8 +29,7 @@ export const bulletin = {
       type: "text",
       content: `
       <ul>
-        <li><a href="www.baidu.com">Issues<a/></li>
-        <li><a href="www.bing.com">Discussions<a/></li>
+        <li><a href="https://github.com/DLUT-TIC/DLUT-TIC.github.io/issues">Issues<a/></li>
       </ul>`,
       style: "font-size: 12px;",
     },
