@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as a}from"./app-Dhe8XflW.js";const n={};function o(r,c){return t(),a("div")}const i=e(n,[["render",o],["__file","1.html.vue"]]),l=JSON.parse('{"path":"/categories/jingsaixiangguan/1.html","title":"","lang":"zh-CN","frontmatter":{"layout":"Categories"},"headers":[],"git":{},"filePathRelative":null}');export{i as comp,l as data};
