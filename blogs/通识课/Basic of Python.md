@@ -11,8 +11,8 @@ tags:
 
 
 ## Reference
-- https://docs.python.org/3/    python官方文档
-- https://peps.python.org/pep-0020/   Zen of python
+- [python官方文档](https://docs.python.org/3/)
+- [Zen of python](https://peps.python.org/pep-0020/)   
 - [Python 教程 — Python 3.13.0 文档](https://docs.python.org/zh-cn/3/tutorial/index.html)
 - [CS 61A Fall 2024](https://cs61a.org/)  👈 **强烈推荐**
 
@@ -200,7 +200,7 @@ python 中一切都是对象，每个变量相当于一个容器，或者说一�
 
 #### 基本的
 
-###### 赋值 
+##### 赋值 
 ```python
 a = 123
 a = "Hello TIC"  
@@ -213,7 +213,7 @@ a = 1.
 a, b, c = 1, 2, 3
 ```
 
-###### 值得一提的运算   
+##### 值得一提的运算   
 ```python
 # 除法
 4/3
@@ -231,7 +231,7 @@ a, b, c = 1, 2, 3
 # 没有 ++
 ```
 
-###### 标准输入输出   
+##### 标准输入输出   
 ```python
 # 输入
 a = input("say something, please ")
@@ -240,7 +240,7 @@ a = input("say something, please ")
 print(a)  # 结尾会自动加上换行
 ```
 
-###### 条件   
+##### 条件   
 ```python
 a = 1
 # correct one
@@ -252,7 +252,7 @@ elif a == 3:
 	print("⛔⛔⛔")
 ```
 
-###### 循环   
+##### 循环   
 ```python
 # while 循环
 a = 1
@@ -495,7 +495,7 @@ IsEven(13)
 
 #### 数据结构
 
-###### 简单介绍一下  
+##### 简单介绍一下  
 
 python 比较常用的数据结构   `list, tuple, dict, set`  
 
@@ -532,7 +532,7 @@ t[0] = "试一下"
 d["我"] = "字典吗"
 ```
 
-###### 索引与切片  index and slides
+##### 索引与切片  index and slides
 
 索引，可以和C索引是一致的   
 ```python
@@ -560,7 +560,7 @@ t[:3]
 t[:-1]
 ```
 
-###### 一个比较常用的技巧 list comprehension  
+##### 一个比较常用的技巧 list comprehension  
 
 ```python
 l1 = [i for i in range(10)]
