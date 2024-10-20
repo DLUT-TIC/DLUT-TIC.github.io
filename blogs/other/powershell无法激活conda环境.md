@@ -1,5 +1,5 @@
 ---
-title: powershell 无法激活
+title: powershell 无法激活conda环境
 author: saber
 tag: 
   - environment
