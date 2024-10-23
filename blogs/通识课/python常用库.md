@@ -1,3 +1,13 @@
+---
+title: Python常用库
+author: 百万年薪ai group
+tag: 
+  - python
+categories:
+ - Blog
+date: 2024/10/20
+---
+
 # python常用库
 
 在import导入库之前，需要在cmd命令行执行：conda activate name_of_environment，切换到目标conda 环境中执行：pip install 库名称
