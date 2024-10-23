@@ -1,3 +1,12 @@
+---
+title: powershell 无法激活conda环境
+author: saber
+tag: 
+  - environment
+  - FQA
+date: 2024/10/20
+---
+
 ### 问题描述
 
 - 在powershell 执行 `conda activate`  提示需要执行 `conda init`  (报错或没反应)  
