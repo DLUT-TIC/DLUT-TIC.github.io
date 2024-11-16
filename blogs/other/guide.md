@@ -2,6 +2,8 @@
 title: 网站编辑方法
 date: 2024/8/2
 author: lyydsheep
+categories: 
+- 网站配置
 tags:
  - 使用方法
 password: 0dd093641855dfab83795bfba3f3f84e
