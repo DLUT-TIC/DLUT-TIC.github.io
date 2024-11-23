@@ -1882,7 +1882,6 @@ finish();
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-    ```
     
         <Button
             android:id="@+id/btn_act_back"
