@@ -10,15 +10,15 @@ tags:
  - 前端框架
 ---
 
-# Android基础
+## Android基础
 
-## 学习前的声明
+### 学习前的声明
 
-### 1. 语言要求
+#### 1. 语言要求
 
 - 本次学习用到的语言为<mark>Java</mark>。（<mark>Kotlin</mark>虽然为Android官方推荐语言，但Java与Kotlin的关系类似于C与C++的关系，学好了Java，便能比较快地上手Kotlin）
 
-### 2. 设置主界面
+#### 2. 设置主界面
 
 - 在<mark>AndroidManifest.xml</mark>文件中，在如图所示的位置改为想要作为主界面的的java文件名（注意别忘了名称开头要加点）
   
@@ -26,7 +26,7 @@ tags:
   
   ![](https://github.com/meeting77smile/Android-Learning/blob/main/note/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-10-04%20231000.png?raw=true)
 
-### 3. Java代码的说明
+#### 3. Java代码的说明
 
 - 注意：实例中所给的代码最好<mark>别全部复制</mark>，需要看清代码的内容再<mark>选择进行复制</mark>。
 
@@ -38,7 +38,7 @@ tags:
   
   ![](https://github.com/meeting77smile/Android-Learning/blob/main/note/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-10-11%20155735.png?raw=true)
 
-### 4. 修改虚拟机的底部导航栏
+#### 4. 修改虚拟机的底部导航栏
 
 - 首先将在虚拟机的桌面中下滑，即可找到<mark>设置</mark>选项：
   
@@ -52,7 +52,7 @@ tags:
   
   ![](https://github.com/meeting77smile/Android-Learning/blob/main/note/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-10-11%20195009.png?raw=true)
 
-### 5. 新建Moule(模块)
+#### 5. 新建Moule(模块)
 
 - 一个Moule可简单理解为一个应用，在左侧栏显示为一个文件夹，如图中划线部分即为一个Module：
   
@@ -68,7 +68,7 @@ tags:
   
   ![](https://github.com/meeting77smile/Android-Learning/blob/main/note/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-10-18%20183501.png?raw=true)
 
-### 6. 文件的命名
+#### 6. 文件的命名
 
 - 在学习过程中建议<mark>采取示例代码里的文件名称</mark>，这样便可以顺便学习<mark>规范的文件命名</mark>方式，并且能够使得文件名<mark>容易读懂</mark>。
 
@@ -78,7 +78,7 @@ tags:
   
   ![](https://github.com/meeting77smile/Android-Learning/blob/main/note/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-10-21%20204748.png?raw=true)
 
-### 7. 文件的建立
+#### 7. 文件的建立
 
 - java文件的建立
   
@@ -94,11 +94,11 @@ tags:
   
   ![](https://github.com/meeting77smile/Android-Learning/blob/main/note/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-10-21%20205204.png?raw=true)
 
-## 1. 简单控件
+### 1. 简单控件
 
-### 1.1 文本显示
+#### 1.1 文本显示
 
-#### 1.1.1 设置文本内容
+##### 1.1.1 设置文本内容
 
 有两种方式：
 
@@ -140,7 +140,7 @@ tags:
     <string name="test">设置文本内容"</string>
 ```
 
-#### 1.1.2 设置字体大小
+##### 1.1.2 设置字体大小
 
 类似的，也有两种方式：
 
@@ -167,7 +167,7 @@ tags:
    
    此时设置字体大小不用带单位，默认以sp为单位(说明官方推荐以sp作为字体的单位)
 
-#### 1.1.3 设置字体颜色
+##### 1.1.3 设置字体颜色
 
 也有两种方式：
 
@@ -217,9 +217,9 @@ tags:
    
    - 也可以用省略前两位数字，<mark>用六位十六进制数表示</mark>颜色。在<mark>xml文件中默认前两位为FF</mark>，也就是完全不透明；在<mark>java文件中默认前两位为00</mark>，也就是完全透明。
 
-### 1.2 视图基础
+#### 1.2 视图基础
 
-#### 1.2.1 设置视图的宽高
+##### 1.2.1 设置视图的宽高
 
 1. **在XML文件中通过属性android:layout设置**
    
@@ -285,7 +285,7 @@ tags:
        tv_code.setLayoutParams(params);
        ```
 
-#### 1.2.2 设置视图的间距
+##### 1.2.2 设置视图的间距
 
 可在**XML文件**中改变两种属性：
 
@@ -334,7 +334,7 @@ tags:
   
   ![](https://github.com/meeting77smile/Android-Learning/blob/main/note/images/20240921212601.png?raw=true)
 
-#### 1.2.3 设置视图的对齐方式
+##### 1.2.3 设置视图的对齐方式
 
 类似的，在<mark>XML文件</mark>中也有两种属性：
 
@@ -396,9 +396,9 @@ tags:
   
   ![](https://github.com/meeting77smile/Android-Learning/blob/main/note/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-09-21%20225822.png?raw=true)
 
-### 1.3 常用布局
+#### 1.3 常用布局
 
-#### 1.3.1 线性布局LinearLayout
+##### 1.3.1 线性布局LinearLayout
 
 - **线性布局的排列方式(orientation)**
   
@@ -481,7 +481,7 @@ tags:
   
   ![](https://github.com/meeting77smile/Android-Learning/blob/main/note/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-09-23%20182310.png?raw=true)
 
-#### 1.3.2 相对布局RelativeLayout
+##### 1.3.2 相对布局RelativeLayout
 
 - **RelativeLayout**的<mark>下级视图的位置</mark>可由其他视图的位置决定（若不设定则<mark>默认</mark>显示在RelativeLayout内部的<mark>左上角</mark>）。用于确定下级视图位置的<mark>参照物</mark>有两种：
   
@@ -589,7 +589,7 @@ tags:
       
       ![](https://github.com/meeting77smile/Android-Learning/blob/main/note/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-09-23%20192944.png?raw=true)
 
-#### 1.3.3 网格布局GridLayout
+##### 1.3.3 网格布局GridLayout
 
 - 网格布局支持多行多列的表格排列。
 
@@ -659,7 +659,7 @@ tags:
   
   ![](https://github.com/meeting77smile/Android-Learning/blob/main/note/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-09-23%20202259.png?raw=true)
 
-#### 1.3.4 滚动视图ScrollView
+##### 1.3.4 滚动视图ScrollView
 
   当下级视图的大小超出屏幕或当前视图时，可以使用滚动视图来滑动。有两种滚动视图：
 
@@ -733,7 +733,7 @@ tags:
   
   ![](https://github.com/meeting77smile/Android-Learning/blob/main/note/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-09-24%20135648.png?raw=true)
 
-### 1.4 按钮控件Button
+#### 1.4 按钮控件Button
 
 - <mark>Button是TextView的子类</mark>，因此它<mark>也是一种视图</mark>。(而<mark>TextView是View的子类</mark>)。Button与TextView的<mark>区别</mark>主要有：
   
@@ -741,7 +741,7 @@ tags:
   
   - <mark>Button的内部文本默认居中对齐</mark>，而TextView的内部文本默认靠左上角对齐。
 
-#### 1.4.1 新增属性
+##### 1.4.1 新增属性
 
 - 与TextView相比，Button新增了两个属性：
   
@@ -881,7 +881,7 @@ tags:
       
       ![](https://github.com/meeting77smile/Android-Learning/blob/main/note/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-09-24%20164655.png?raw=true)
 
-#### 1.4.2 点击事件
+##### 1.4.2 点击事件
 
 - 补充知识点：**监听器**是专门<mark>监听控件的动作行为</mark>，只有控件发生了指定的动作<mark>，监听器</mark>才会<mark>触发开关去执行</mark>对应的代码逻辑。
 
@@ -1016,7 +1016,7 @@ tags:
     
     ![](https://github.com/meeting77smile/Android-Learning/blob/main/note/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-09-24%20211312.png?raw=true)
 
-#### 1.4.3 长按点击事件
+##### 1.4.3 长按点击事件
 
 - 长按监听器（<mark>OnLongClickListener</mark>）通过<mark>setOnLongClickListenrt方法</mark>设置。按钮被按住<mark>大于等于500毫秒</mark>时<mark>才会触发</mark> 长按点击事件。
 
@@ -1102,7 +1102,7 @@ tags:
     
        ![](https://github.com/meeting77smile/Android-Learning/blob/main/note/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-10-03%20214517.png?raw=true)
 
-#### 1.4.4 禁用与恢复按钮
+##### 1.4.4 禁用与恢复按钮
 
 - 在实际开发过程中（如点击按钮发送验证码给手机后60s内，无法再次点击按钮来发送验证码），<mark>按钮</mark>通常拥有<mark>两种状态</mark>，即<mark>不可用状态</mark>与<mark>可用状态</mark>，它们在<mark>外观和功能</mark>上的<mark>区别</mark>如下：
   
@@ -1234,9 +1234,9 @@ tags:
   
     ![](https://github.com/meeting77smile/Android-Learning/blob/main/note/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-10-04%20235949.png?raw=true)
 
-### 1.5 图像显示
+#### 1.5 图像显示
 
-#### 1.5.1 图像视图ImageView
+##### 1.5.1 图像视图ImageView
 
 - 图像视图展示的图片通常位于<mark>res/drawable目录</mark>。
 
@@ -1283,7 +1283,7 @@ tags:
     
     - 它们之间的区别在于：<mark>fitCenter</mark>既允许缩小图片，也允许放大图片；<mark>centerInside</mark>只允许缩小图片；<mark>center</mark>始终保持图片的原始尺寸（如果图片太大，则视图中只能显示图片的一部分），既不允许缩小图片，也不允许放大图片；<mark>centerCrope</mark>既可能缩小图片，也可能放大图片，最终结果是使得图片充满视图，可能使得图片宽高比例被改变。因此，当<mark>图片尺寸大于视图</mark>时，centerInside与fitCenter都会缩小图片，此时它俩的显示效果相同；当<mark>图片尺寸小于视图</mark>时，centerInside与center都会保持图片大小不变，此时它们的显示效果相同。
 
-#### 1.5.2 图像按钮ImageButton
+##### 1.5.2 图像按钮ImageButton
 
 - <mark>ImageButton</mark> 是显示图片的图像按钮，它<mark>继承于ImageView</mark>，而非Button。
 
@@ -1314,7 +1314,7 @@ tags:
     </LinearLayout>
     ```
 
-#### 1.5.3 同时展示文本与图像
+##### 1.5.3 同时展示文本与图像
 
 - 同时展示文本与图像主要有**两种方式**：
   
@@ -1334,11 +1334,11 @@ tags:
         
         ![](https://github.com/meeting77smile/Android-Learning/blob/main/note/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-10-06%20224606.png?raw=true)
 
-### 1.6 项目实践：简单计算器
+#### 1.6 项目实践：简单计算器
 
 <mark>以下是示例代码：</mark>
 
-#### 1.6.1 values文件夹
+##### 1.6.1 values文件夹
 
 - **strings . xml文件**
   
@@ -1382,7 +1382,7 @@ tags:
   </resources>
   ```
 
-#### 1.6.2 layout文件夹
+##### 1.6.2 layout文件夹
 
 - <mark>新建</mark>一个名为<mark>activity_calculator . xml</mark>的文件
   
@@ -1607,7 +1607,7 @@ tags:
   </LinearLayout>
   ```
 
-#### 1.6.3 java文件
+##### 1.6.3 java文件
 
 - <mark>新建</mark>一个名为<mark>CalculatorActivity . java</mark>的java文件
   
@@ -1782,19 +1782,19 @@ tags:
   }
   ```
 
-#### 1.6.4 最终效果
+##### 1.6.4 最终效果
 
 ![](https://github.com/meeting77smile/Android-Learning/blob/main/note/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-10-09%20194406.png?raw=true)
 
-## 2.  Activity活动
+### 2.  Activity活动
 
 <mark>Activity</mark>（活动）其实是<mark>“安卓”系统的重要组件（组成部分）之一</mark>。Android<mark>四大组件</mark>有<mark>Activity活动</mark>，<mark>Service服务</mark>，<mark>Content Provider内容提供</mark>，<mark>BroadcastReceiver广播接收器</mark>。
 
 一个Activity是一个应用程序的组件，通常一个Activity里会有一个页面，用户让用户来操作，完成如打电话、发短信、拍照等功能。目前我们<mark>先将Activity视为页面</mark>的意思<mark>即可</mark>。
 
-### 2.1 启停活动页面
+#### 2.1 启停活动页面
 
-#### 2.1.1 Activity的启动与结束
+##### 2.1.1 Activity的启动与结束
 
 以页面的跳转为例：
 
@@ -1929,7 +1929,7 @@ finish();
   
   ![]()
 
-#### 2.1.2 Activity的生命周期
+##### 2.1.2 Activity的生命周期
 
 - **示意图** 
   
@@ -2069,7 +2069,7 @@ finish();
    
    ![](https://github.com/meeting77smile/Android-Learning/blob/main/note/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-10-11%20174753%20-%20%E5%89%AF%E6%9C%AC%20(2).png?raw=true)
 
-#### 2.1.3 Activity的启动模式
+##### 2.1.3 Activity的启动模式
 
 - **在配置文件中指定启动模式** 
   
@@ -2183,9 +2183,9 @@ finish();
     
     - **运行结果** ：此时将ActStartActivity和ActFinishActivity页面分别作为登录界面和登录成功页面，当进入登录成功页面（ActFinishActivity页面）后，再按下手机的底部导航栏的返回按钮，此时App直接退出而不是返回登录页面（ActStartActivity页面）
 
-### 2.2 在活动之间传递消息
+#### 2.2 在活动之间传递消息
 
-#### 2.2.1 显式Intent和隐式Intent
+##### 2.2.1 显式Intent和隐式Intent
 
 - 了解Intent
   
@@ -2426,19 +2426,19 @@ finish();
         }
     }
     ```
-    
-    - 此外，为实现第三个按钮的功能（按钮一二实现的都是跳转到系统应用，按钮三跳转的是非系统应用），以第一章节写的应用"chapter03"(应用名)为例，若想跳到该应用，还需在该应用的AndroidMainfest . xml中的主界面下放新增：
+
+  - 此外，为实现第三个按钮的功能（按钮一二实现的都是跳转到系统应用，按钮三跳转的是非系统应用），以第一章节写的应用"chapter03"(应用名)为例，若想跳到该应用，还需在该应用的AndroidMainfest . xml中的主界面下放新增：
       
       ```xml
       <intent-filter>
           <action android:name="android.intent.action.NING" />
           <category android:name="android.intent.category.DEFAULT" />
       </intent-filter>
-      ```
       
       并且将<mark>exported</mark>设置为<mark>true</mark> 。（允许其他应用来启动该Activity）。
-      
-      总代码为：
+      ```
+
+  - 总代码为：
       
       ```xml
       <?xml version="1.0" encoding="utf-8"?>
@@ -2470,7 +2470,7 @@ finish();
       </manifest>
       ```
     
-    - 最终效果：
+  - 最终效果：
       
       - ![](https://github.com/meeting77smile/Android-Learning/blob/main/note/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-10-17%20131810.png?raw=true)
       
@@ -2484,7 +2484,7 @@ finish();
         
         ![](https://github.com/meeting77smile/Android-Learning/blob/main/note/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-10-17%20132357.png?raw=true)
 
-#### 2.2.2 向下一个Activity传递数据
+##### 2.2.2 向下一个Activity传递数据
 
 - <mark>Intent</mark>使用<mark>Bundle</mark>对象<mark>存放待传递的数据</mark>信息。（Bundle类型的对象在Android开发中非常常见，它的作用主要时用于<mark>传递数据</mark>。）,可把Bundle理解”<mark>包裹</mark>“，可携带着需要传递的内容在不同的Activity传递。
 
@@ -2627,7 +2627,7 @@ finish();
   
   ![](https://github.com/meeting77smile/Android-Learning/blob/main/note/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-10-18%20182456.png?raw=true)
 
-#### 2.2.3 向上一个Activity返回数据
+##### 2.2.3 向上一个Activity返回数据
 
 - 处理下一个页面的返回（应答）数据，详细步骤说明如下：
   
@@ -2835,9 +2835,9 @@ finish();
     
     ![](https://github.com/meeting77smile/Android-Learning/blob/main/note/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-10-20%20211629.png?raw=true)
 
-### 2.3 为活动补充附加信息
+#### 2.3 为活动补充附加信息
 
-#### 2.3.1 利用资源文件配置字符串
+##### 2.3.1 利用资源文件配置字符串
 
 - 将String放到strings . xml文件再来读取，而不是放在代码中的原因：Java代码需要编译才能运行，若进行修改则需要重新编译才能运行；配置文件（如strings . xml)不需要编码便能运行，方便灵活地进行修改。
 
@@ -2891,7 +2891,7 @@ finish();
   
   - 最终即可显示所设置的文字内容。
 
-#### 2.3.2 利用元数据传递配置信息
+##### 2.3.2 利用元数据传递配置信息
 
 - **使用场景**
   
@@ -3004,7 +3004,7 @@ finish();
   }
   ```
 
-#### 2.3.3 给应用页面注册快捷方式
+##### 2.3.3 给应用页面注册快捷方式
 
 - 元数据不仅能够传递简单的字符串参数，还能传送更复杂的资源数据，比如支付宝的快捷方式菜单：
   
@@ -3070,17 +3070,17 @@ finish();
     </shortcuts>
     ```
     
-    - **android:enabled** ：是否<mark>启用</mark>。
+  - **android:enabled** ：是否<mark>启用</mark>。
     
-    - **android:icon** ：该快捷方式对应的<mark>图标</mark>
+  - **android:icon** ：该快捷方式对应的<mark>图标</mark>
     
-    - **android:shortcutLongLabel**：该快捷方式的<mark>长名称</mark>（<mark>默认</mark>使用长名称），只能用<mark>strings.xml文件中定义的字符串给其赋值</mark>。
+  - **android:shortcutLongLabel**：该快捷方式的<mark>长名称</mark>（<mark>默认</mark>使用长名称），只能用<mark>strings.xml文件中定义的字符串给其赋值</mark>。
     
-    - **android:shortcutShortLabel**：该快捷方式的<mark>短名称</mark>（当长名称的字数超过限制时，则启用短名称），只能用strings.xml文件中定义的字符串给其赋值。
+  - **android:shortcutShortLabel**：该快捷方式的<mark>短名称</mark>（当长名称的字数超过限制时，则启用短名称），只能用strings.xml文件中定义的字符串给其赋值。
     
-    - **android:targetClass**：要<mark>跳转的目标页面</mark>，其值的格式为：目标页面所在包名.目标页面名。
+  - **android:targetClass**：要<mark>跳转的目标页面</mark>，其值的格式为：目标页面所在包名.目标页面名。
     
-    - **android:targetPackage**：要跳转的目标包名。
+  - **android:targetPackage**：要跳转的目标包名。
 
 - 为了给**shortcutLongLabel**  和**shortcutShortLabel** 赋值，还需要在strings.xml文件中加上：
   
@@ -3176,11 +3176,11 @@ finish();
     
     ![](https://github.com/meeting77smile/Android-Learning/blob/main/note/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-10-22%20145939.png?raw=true)
 
-## 3. 中级控件
+### 3. 中级控件
 
-### 3.1 图形定制
+#### 3.1 图形定制
 
-#### 3.1.1 图形Drawable
+##### 3.1.1 图形Drawable
 
 - **Android** 把所有<mark>能够显示的图形</mark>（不止是图片，还包括色块、画板、背景等）都<mark>抽象为Drawable</mark>（可绘制的）<mark>类</mark>。
 
@@ -3202,7 +3202,7 @@ finish();
 
 - 在<mark>XML布局文件中引用图形文件</mark>可使用"<mark>@drawable/不含扩展名的文件名称</mark>"这种形式，如各视图的bcakground属性、ImageView和ImageButton的src属性、TextView和Button四个方向的drawable系列属性都可以引用图形文件。
 
-#### 3.1.2 形状图形
+##### 3.1.2 形状图形
 
 - Shape图形又称形状图形，它用来描述常见的几何形状，包括矩形、圆角矩形、圆形、椭圆等等。
 
@@ -3412,7 +3412,7 @@ finish();
 
 - 在实际开发中，形状图形<mark>主要</mark>使用3个节点：<mark>stroke</mark>（描边)、<mark>corners</mark>（圆角)和<mark>solid</mark>(填充)。至于shape根根节点的属性一般不用设置（默认矩形即可）。
 
-#### 3.1.3 九宫格图片（点9图片）
+##### 3.1.3 九宫格图片（点9图片）
 
 - **使用场景**：将某张图片设置成视图背景时，如果图片的尺寸太小，则系统会自动拉伸图片使之填满背景，可说的图片一旦<mark>拉伸得过大</mark>，其画面又容易<mark>模糊</mark>，此时就需要使用九宫格图片。又称之为点9图片的原因是其文件名的后缀带有 <mark>.9</mark> 。
 
