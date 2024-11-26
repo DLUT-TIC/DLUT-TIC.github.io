@@ -2,3 +2,4 @@
 .vuepress/.temp
 node_modules
 update.bat
+.idea
