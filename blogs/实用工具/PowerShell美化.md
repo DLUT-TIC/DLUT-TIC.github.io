@@ -13,7 +13,7 @@ author: dinglz
 
 最终大概能达到这个效果（一种）：
 
-![](1.png)
+![](https://dinglz.us.kg/p/powershell%E7%9A%84%E7%BE%8E%E5%8C%96/1_hu15160749138882590880.png)
 
 **注意**：本文仅介绍powershell的安装方式，cmd、bash等可前往官网找到安装方式。
 
